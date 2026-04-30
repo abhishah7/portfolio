@@ -117,7 +117,7 @@ This project is open source and available under the MIT License.
 
 ## Author
 
-ABHISHEK GOND - [Portfolio](https://abu-said.vercel.app)
+ABHISHEK GOND - [Portfolio](https://.vercel.app)
 
 ---
 
