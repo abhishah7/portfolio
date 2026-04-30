@@ -14,7 +14,7 @@ export default function BlogPage() {
   const fetchBlogs = async () => {
     try {
       setLoading(true);
-      const response = await fetch('https://dev.to/api/articles?username=AD3826');
+      const response = await fetch('https://dev.to/api/articles?username=abhishah7');
       const data = await response.json();
       const filtered = data.filter((item) => item?.cover_image);
       setBlogs(filtered);

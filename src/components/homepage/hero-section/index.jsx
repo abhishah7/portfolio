@@ -23,7 +23,7 @@ function HeroSection() {
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             <span className="fade-in">Hello, </span><br />
             <span className="fade-in stagger-1">My Name Is{' '}</span>
-            <span className="text-pink-500 fade-in stagger-2 glitch-hover" data-text={personalData.name}>{personalData.name}</span>
+            <span className="text-pink-500 fade-in stagger-2 " data-text={personalData.name}>{personalData.name}</span>
             {`, I'm a Professional `}
             <span className="text-[#16f2b3] fade-in stagger-3">
               <TypingEffect text={personalData.designation} speed={100} />

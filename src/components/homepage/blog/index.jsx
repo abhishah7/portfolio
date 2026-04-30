@@ -16,7 +16,7 @@ function Blog() {
   const fetchBlogs = async () => {
     try {
       setLoading(true);
-      const response = await fetch('https://dev.to/api/articles?username=AD3826');
+      const response = await fetch('https://dev.to/api/articles?username=abhishah7');
       const data = await response.json();
       const filtered = data.filter((item) => item?.cover_image).sort(() => Math.random() - 0.5);
       setBlogs(filtered);
